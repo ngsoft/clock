@@ -1,35 +1,37 @@
 {
-    "name": "ngsoft/clock",
-    "description": "Provides a way to time code execution",
-    "keywords": [
-        "PSR-20",
-        "timer",
-        "stopwatch"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Aymeric Anger",
-            "role": "Developer",
-            "homepage": "https://github.com/ngsoft"
-        }
-    ],
-    "suggest": {},
-    "provide": {
-        "psr/clock-implementation": "^1.0"
+  "name": "ngsoft/clock",
+  "description": "Provides a way to time code execution",
+  "keywords": [
+    "PSR-20",
+    "timer",
+    "stopwatch",
+    "chronometer",
+    "task"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aymeric Anger",
+      "role": "Developer",
+      "homepage": "https://github.com/ngsoft"
+    }
+  ],
+  "suggest": {},
+  "provide": {
+    "psr/clock-implementation": "^1.0"
+  },
+  "require-dev": {},
+  "require": {
+    "php": ">=8.1",
+    "psr/clock": "^1",
+    "ngsoft/tools": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "NGSOFT\\": "src/"
     },
-    "require-dev": {},
-    "require": {
-        "php": ">=8.1",
-        "psr/clock": "^1",
-        "ngsoft/tools": "^4"
-    },
-    "autoload": {
-        "psr-4": {
-            "NGSOFT\\": "src/"
-        },
-        "files": []
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "files": []
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
