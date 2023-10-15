@@ -21,7 +21,8 @@
     "require-dev": {},
     "require": {
         "php": ">=8.1",
-        "psr/clock": "^1"
+        "psr/clock": "^1",
+        "ngsoft/tools": "^4"
     },
     "autoload": {
         "psr-4": {
